@@ -13,9 +13,9 @@ const Supply = ({ allSupplys }) => {
                 <div className="projects-details__img">
                   <h1>Requirement List</h1>
                 </div>
-                {allSupplys.map((data) => {
+                {allSupplys.map((data, index) => {
                   return (
-                    <div className="projects-details__information">
+                    <div className="projects-details__information" key={index}>
                       <ul>
                         <li>
                           <h5>Openning Date</h5>

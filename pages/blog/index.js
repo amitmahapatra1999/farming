@@ -15,12 +15,13 @@ const Index = ({ allBlogs }) => {
         ></div>
         <div className="container">
           <div className="row">
-            {allBlogs.map((data) => {
+            {allBlogs.map((data, index) => {
               return (
                 <div
                   className="col-xl-4 col-lg-4  wow fadeInLeft"
                   data-wow-delay="0ms"
                   data-wow-duration="1500ms"
+                  key={index}
                 >
                   <div className="blog-one__single">
                     <div className="blog-one__single-img">

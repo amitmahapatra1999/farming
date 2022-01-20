@@ -13,9 +13,9 @@ const Index = ({ allProducts }) => {
             <div className="col-lg-12">
               <div className="row"></div>
               <div className="row">
-                {allProducts.map((data) => {
+                {allProducts.map((data, index) => {
                   return (
-                    <div className="col-md-4 col-lg-4">
+                    <div className="col-md-4 col-lg-4" key={index}>
                       <div className="shop-one__item">
                         <div className="shop-one__image">
                           <div className="row">

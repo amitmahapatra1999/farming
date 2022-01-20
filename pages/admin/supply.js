@@ -152,9 +152,9 @@ const Supply = ({ allSupplys }) => {
               </div>
             </div>
           </div>
-          {allSupplys.map((data) => {
+          {allSupplys.map((data, index) => {
             return (
-              <div className="projects-details__information">
+              <div className="projects-details__information" key={index}>
                 <ul>
                   <li>
                     <h5>Openning Date</h5>
