@@ -11,10 +11,10 @@ const Study = () => {
             <div className="col-xl-12">
               <div className="projects-one--two--projects__wrapper">
                 <div className="row">
-                  <VideoCard />
-                  <VideoCard />
-                  <VideoCard />
-                  <VideoCard />
+                  <VideoCard link="https://www.youtube.com/embed/EYodtNHt3f0" />
+                  <VideoCard link="https://www.youtube.com/embed/uqr8X7cp4WY" />
+                  <VideoCard link="https://www.youtube.com/embed/_ULc_pkwMPA" />
+                  <VideoCard link="https://www.youtube.com/embed/afBPBl7TJpM" />
                 </div>
                 <div className="projects-one--two--projects__btn text-center">
                   <a href="#" className="thm-btn">

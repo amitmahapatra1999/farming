@@ -97,7 +97,7 @@ const AdminNav = ({ user }) => {
                       <span className="icon-user"></span>
                     </div>
                     <div className="text">
-                      <p>Amit Mahapatra</p>
+                      <p>{user?.displayName}</p>
                       <ul>
                         {user ? (
                           <>

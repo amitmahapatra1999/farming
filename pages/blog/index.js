@@ -18,7 +18,7 @@ const Index = ({ allBlogs }) => {
             {allBlogs.map((data, index) => {
               return (
                 <div
-                  className="col-xl-4 col-lg-4  wow fadeInLeft"
+                  className="col-xl-3 col-lg-3  wow fadeInLeft"
                   data-wow-delay="0ms"
                   data-wow-duration="1500ms"
                   key={index}

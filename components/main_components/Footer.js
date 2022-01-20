@@ -67,12 +67,12 @@ const Footer = () => {
                               <Image
                                 height="70"
                                 width="70"
-                                src="/assets/images/resources/footer-widget-news-img1.png"
+                                src="/assets/images/ritam.png"
                                 alt=""
                               />
                             </div>
                             <div className="footer-widget__news-list-item-title">
-                              <p>Amit Mahapatra</p>
+                              <p>Ritam Pradhan</p>
                             </div>
                           </li>
                           <li className="footer-widget__news-list-item">
@@ -80,18 +80,42 @@ const Footer = () => {
                               <Image
                                 height="70"
                                 width="70"
-                                src="/assets/images/resources/footer-widget-news-img1.png"
+                                src="/assets/images/meghna.png"
                                 alt=""
                               />
                             </div>
                             <div className="footer-widget__news-list-item-title">
-                              <p>Amit Mahapatra</p>
+                              <p>Meghna Sarkar</p>
                             </div>
                           </li>
                         </ul>
                       </div>
                     </div>
                     <div
+                      className="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp"
+                      data-wow-delay="0.3s"
+                    >
+                      <div className="footer-widget__column footer-widget__news">
+                        <h2 className="footer-widget__title">.</h2>
+                        <ul className="footer-widget__news-list">
+                          <li className="footer-widget__news-list-item">
+                            <div className="footer-widget__news-list-item-img">
+                              <Image
+                                height="70"
+                                width="70"
+                                src="/assets/images/md.png"
+                                alt=""
+                                style={{ borderRadius: "50%" }}
+                              />
+                            </div>
+                            <div className="footer-widget__news-list-item-title">
+                              <p>Md. Mizanur Rahman</p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    {/* <div
                       className="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp"
                       data-wow-delay="0.3s"
                     >
@@ -126,43 +150,7 @@ const Footer = () => {
                           </li>
                         </ul>
                       </div>
-                    </div>
-                    <div
-                      className="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp"
-                      data-wow-delay="0.3s"
-                    >
-                      <div className="footer-widget__column footer-widget__news">
-                        <h2 className="footer-widget__title">Members</h2>
-                        <ul className="footer-widget__news-list">
-                          <li className="footer-widget__news-list-item">
-                            <div className="footer-widget__news-list-item-img">
-                              <Image
-                                height="70"
-                                width="70"
-                                src="/assets/images/resources/footer-widget-news-img1.png"
-                                alt=""
-                              />
-                            </div>
-                            <div className="footer-widget__news-list-item-title">
-                              <p>Amit Mahapatra</p>
-                            </div>
-                          </li>
-                          <li className="footer-widget__news-list-item">
-                            <div className="footer-widget__news-list-item-img">
-                              <Image
-                                height="70"
-                                width="70"
-                                src="/assets/images/resources/footer-widget-news-img1.png"
-                                alt=""
-                              />
-                            </div>
-                            <div className="footer-widget__news-list-item-title">
-                              <p>Amit Mahapatra</p>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

@@ -1,9 +1,10 @@
+import { loadGetInitialProps } from "next/dist/shared/lib/utils";
 import React from "react";
 
-const VideoCard = () => {
+const VideoCard = (props) => {
   return (
     <>
-      <div className="col-md-4 col-lg-6">
+      <div className="col-md-6 col-lg-6">
         <div
           className="shop-one__item"
           style={{ backgroundColor: "#6d8c54", marginBottom: "30px" }}
@@ -12,7 +13,7 @@ const VideoCard = () => {
             <iframe
               width="600"
               height="400"
-              src="https://www.youtube.com/embed/07d2dXHYb94"
+              src={props.link}
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

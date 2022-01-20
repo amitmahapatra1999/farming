@@ -113,7 +113,7 @@ const About = () => {
           </div>
           <div className="row">
             <div
-              className="col-xl-3 col-lg-6  wow fadeInLeft"
+              className="col-xl-4 col-lg-6  wow fadeInLeft"
               data-wow-delay="0ms"
               data-wow-duration="1000ms"
             >
@@ -122,14 +122,14 @@ const About = () => {
                   <Image
                     height="330"
                     width="300"
-                    src="/assets/images/resources/meet-farmers-v1-img1.jpg"
+                    src="/assets/images/ritam.jpeg"
                     alt=""
                   />
                 </div>
                 <div className="meet-farmers-one__single-title text-center">
                   <p>Farmer</p>
                   <h2>
-                    <a href="farmers.html">Kevin Martin</a>
+                    <a href="farmers.html">Ritam Pradhan</a>
                   </h2>
                   <div className="social-link">
                     <ul>
@@ -160,7 +160,7 @@ const About = () => {
             </div>
 
             <div
-              className="col-xl-3 col-lg-6  wow fadeInLeft"
+              className="col-xl-4 col-lg-6  wow fadeInLeft"
               data-wow-delay="100ms"
               data-wow-duration="1000ms"
             >
@@ -169,14 +169,14 @@ const About = () => {
                   <Image
                     height="330"
                     width="300"
-                    src="/assets/images/resources/meet-farmers-v1-img2.jpg"
+                    src="/assets/images/meghna.jpeg"
                     alt=""
                   />
                 </div>
                 <div className="meet-farmers-one__single-title text-center">
                   <p>Farmer</p>
                   <h2>
-                    <a href="farmers.html">Christine Eve</a>
+                    <a href="farmers.html">Meghna Sarkar</a>
                   </h2>
                   <div className="social-link">
                     <ul>
@@ -207,7 +207,7 @@ const About = () => {
             </div>
 
             <div
-              className="col-xl-3 col-lg-6  wow fadeInRight"
+              className="col-xl-4 col-lg-6  wow fadeInRight"
               data-wow-delay="0ms"
               data-wow-duration="1000ms"
             >
@@ -216,61 +216,14 @@ const About = () => {
                   <Image
                     height="330"
                     width="300"
-                    src="/assets/images/resources/meet-farmers-v1-img3.jpg"
+                    src="/assets/images/md.jpeg"
                     alt=""
                   />
                 </div>
                 <div className="meet-farmers-one__single-title text-center">
                   <p>Farmer</p>
                   <h2>
-                    <a href="farmers.html">Mike Hardson</a>
-                  </h2>
-                  <div className="social-link">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-facebook"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-pinterest-p"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="col-xl-3 col-lg-6  wow fadeInRight"
-              data-wow-delay="100ms"
-              data-wow-duration="1000ms"
-            >
-              <div className="meet-farmers-one__single">
-                <div className="meet-farmers-one__single-img">
-                  <Image
-                    height="330"
-                    width="300"
-                    src="/assets/images/resources/meet-farmers-v1-img4.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="meet-farmers-one__single-title text-center">
-                  <p>Farmer</p>
-                  <h2>
-                    <a href="farmers.html">Jessica Br/own</a>
+                    <a href="farmers.html">Md. Mizanur Rahman</a>
                   </h2>
                   <div className="social-link">
                     <ul>
