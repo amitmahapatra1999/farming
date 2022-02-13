@@ -105,7 +105,7 @@ const Footer = () => {
                                 width="70"
                                 src="/assets/images/md.png"
                                 alt=""
-                                style={{ borderRadius: "50%" }}
+                                // style={{ borderRadius: "50%" }}
                               />
                             </div>
                             <div className="footer-widget__news-list-item-title">

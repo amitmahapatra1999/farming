@@ -7,7 +7,7 @@ const Header = () => {
         <div className="main-header--one__wrapper">
           <div className="main-header--one__top clearfix">
             <div className="auto-container">
-              {/* <div className="main-header--one__top-left">
+              <div className="main-header--one__top-left">
                 <div className="text">
                   <p>Welcome to Agriculture Farming </p>
                 </div>
@@ -35,9 +35,9 @@ const Header = () => {
                     </li>
                   </ul>
                 </div>
-              </div> */}
+              </div>
 
-              {/* <div className="main-header--one__top-right clearfix">
+              <div className="main-header--one__top-right clearfix">
                 <ul>
                   <li>
                     <div className="icon">
@@ -60,7 +60,7 @@ const Header = () => {
                     </div>
                   </li>
                 </ul>
-              </div> */}
+              </div>
             </div>
           </div>
 

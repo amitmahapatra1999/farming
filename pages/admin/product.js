@@ -134,12 +134,7 @@ const Product = ({ allProducts }) => {
                               <div
                                 className="delete-button"
                                 style={{ position: "absolute", zIndex: "999" }}
-                              >
-                                <i
-                                  className="far fa-heart"
-                                  style={{ color: "red" }}
-                                ></i>
-                              </div>
+                              ></div>
                             </div>
                           </div>
 
@@ -149,9 +144,6 @@ const Product = ({ allProducts }) => {
                             src={data.imageUrl}
                             alt=""
                           />
-                          <a className="shop-one__cart" href="#">
-                            <i className=" icon-shopping-cart"></i>
-                          </a>
                         </div>
                         <div className="shop-one__content text-center">
                           <h3 className="shop-one__title">
